@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np 
 import plotly.express as px
-import matplotlib as plt
 import streamlit as st
 df = pd.read_csv('car_analysis.csv')
 df.drop(columns=['Item URL'], inplace=True)
